@@ -288,7 +288,7 @@ h5,
 h6 {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 600;
-    color: #414141;
+    color: #0a65a0;
     position: relative;
     margin: 0 0 30px 0;
     line-height: 1.5;
@@ -336,7 +336,7 @@ h3 > span,
 h4 > span,
 h5 > span,
 h6 > span {
-    color: #1abc9c;
+    color: #0a65a0;
 }
 
 /**	03. Placeholder
@@ -2723,7 +2723,7 @@ section.dark .inline-search form button:hover {
 .parallax img,
 .parallax div,
 .parallax {
-    color: #fff;
+    color: #0a65a0;
     position: relative;
     z-index: 10;
 }
@@ -2806,7 +2806,7 @@ section.section-video .btn,
 section.section-video img,
 section.section-video div,
 section.section-video {
-    color: #fff;
+    color: #0a65a0;
     position: relative;
     z-index: 10;
 }
@@ -4455,7 +4455,7 @@ img.mfp-img {
     height: auto;
     z-index: -1;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #444;
+    background: #bdbdbd;
 }
 .mfp-figure small {
     color: #bdbdbd;
@@ -5120,7 +5120,7 @@ section.dark .owl-theme .owl-controls .owl-buttons div {
 .owl-carousel .owl-caption h2 a,
 .owl-carousel .owl-caption h3,
 .owl-carousel .owl-caption h3 a {
-    color: #fff;
+    color: #0a65a0;
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
@@ -5361,7 +5361,7 @@ section.dark h2.owl-featured {
 .owl-carousel .owl-carousel-caption h2,
 .owl-carousel .owl-carousel-caption h3,
 .owl-carousel .owl-carousel-caption h4 {
-    color: #fff;
+    color: #0a65a0;
     font-size: 16px;
     line-height: 16px;
     margin-bottom: 10px;
@@ -15138,10 +15138,10 @@ a.social-icon.social-icon-sm > i[class^="icon-"] {
     background-color: #25a0ca;
 }
 .social-call:hover {
-    background-color: #444 !important;
+    background-color: #ebf0f4 !important;
 }
 .social-call {
-    background-color: #444;
+    background-color: #f0f4f7;
 }
 .social-ninetyninedesigns:hover {
     background-color: #f26739 !important;
@@ -15568,7 +15568,7 @@ section.dark a.social-icon.social-icon-light:hover > i {
 
 /* dark social icons */
 a.social-icon.social-icon-dark {
-    background-color: #444;
+    background-color: #fff;
     text-shadow: none;
     color: #eee !important;
 }
@@ -16314,7 +16314,7 @@ fieldset[disabled] .btn-foursquare.active {
 }
 .btn-github {
     color: #fff !important;
-    background-color: #444;
+    background-color: #fff;
     border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-github:hover,
@@ -16346,11 +16346,11 @@ fieldset[disabled] .btn-github:active,
 .btn-github.disabled.active,
 .btn-github[disabled].active,
 fieldset[disabled] .btn-github.active {
-    background-color: #444;
+    background-color: #fff;
     border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-github .badge {
-    color: #444;
+    color: #0a65a0;
     background-color: #fff;
 }
 .btn-google {
@@ -17377,7 +17377,7 @@ section.dark .alert-default h4,
 section.dark .alert-default h5,
 section.dark .alert-default h6,
 section.dark .alert-default p {
-    color: #fff !important;
+    color: #0a65a0 !important;
 }
 div.alert.alert-primary,
 div.alert.alert-primary a {
@@ -17414,7 +17414,7 @@ div.alert.alert-dark h3,
 div.alert.alert-dark h4,
 div.alert.alert-dark h5,
 div.alert.alert-dark h6 {
-    color: #fff;
+    color: #0a65a0;
 }
 
 section.dark div.alert,
@@ -17425,7 +17425,7 @@ section.dark div.alert h4,
 section.dark div.alert h5,
 section.dark div.alert h6,
 section.dark div.alert p {
-    color: #333;
+    color: #0a65a0;
 }
 
 section.dark div.callout.alert.alert-border,
@@ -17436,7 +17436,7 @@ section.dark div.callout.alert.alert-border h4,
 section.dark div.callout.alert.alert-border h5,
 section.dark div.callout.alert.alert-border h6,
 section.dark div.callout.alert.alert-border p {
-    color: #fff;
+    color: #0a65a0;
 }
 
 /* bordered top|botom */
@@ -17696,7 +17696,7 @@ div.heading-title h6 {
     display: inline-block;
     padding-left: 0;
     padding-right: 15px;
-    background-color: #fff;
+    background-color: #0a65a0;
 }
 div.heading-title.text-center h1,
 div.heading-title.text-center h2,
@@ -17785,7 +17785,7 @@ section.alternate div.heading-title h3,
 section.alternate div.heading-title h4,
 section.alternate div.heading-title h5,
 section.alternate div.heading-title h6 {
-    background-color: #f9f9f9;
+    background-color: #0a65a0;
 }
 section.dark div.heading-title h1,
 section.dark div.heading-title h2,
@@ -17793,7 +17793,7 @@ section.dark div.heading-title h3,
 section.dark div.heading-title h4,
 section.dark div.heading-title h5,
 section.dark div.heading-title h6 {
-    background-color: #212121;
+    background-color: #0a65a0;
 }
 section.dark.alternate div.heading-title h1,
 section.dark.alternate div.heading-title h2,
@@ -17801,14 +17801,14 @@ section.dark.alternate div.heading-title h3,
 section.dark.alternate div.heading-title h4,
 section.dark.alternate div.heading-title h5,
 section.dark.alternate div.heading-title h6 {
-    background-color: #151515;
+    background-color: #0a65a0;
 }
 
 /* Arrow Heading */
 .heading-title.heading-arrow-top,
 .heading-title.heading-arrow-bottom {
     color: #fff;
-    background-color: #252525;
+    background-color: #0a65a0;
 }
 .heading-title.heading-arrow-top h1,
 .heading-title.heading-arrow-bottom h1,
@@ -17824,7 +17824,7 @@ section.dark.alternate div.heading-title h6 {
 .heading-title.heading-arrow-bottom h6,
 .heading-title.heading-arrow-top p,
 .heading-title.heading-arrow-bottom p {
-    color: #fff;
+    color: #0a65a0;
     margin: 0;
 }
 
@@ -18088,7 +18088,7 @@ p.lead .word-rotator {
     border-radius: 3px;
 }
 section.dark .box-icon .box-icon-title > i {
-    background-color: #666;
+    background-color: #0a65a0;
 }
 .box-icon .box-icon-title.box-icon-transparent > i {
     color: #414141;
@@ -18437,7 +18437,7 @@ section.dark .box-flip .box-icon-title > i {
 .box-flip.box-color h6,
 .box-flip.box-color p,
 .box-flip.box-color .box-icon-title > i {
-    color: #fff;
+    color: #0a65a0;
 }
 
 .box-flip .btn-lg.btn-translucid {
@@ -18451,7 +18451,7 @@ section.dark .box-flip .box-icon-title > i {
 .box-flip .box-default h3,
 .box-flip .box-default h4,
 .box-flip .box-default h5 {
-    color: #000 !important;
+    color: #0a65a0 !important;
 }
 
 /* box static */
@@ -18487,7 +18487,7 @@ section.dark .box-flip .box-icon-title > i {
 .box-static.box-dark h4,
 .box-static.box-dark h5,
 .box-static.box-dark h6 {
-    color: #fff;
+    color: #0a65a0;
 }
 
 .box-static.box-border-top {
@@ -18539,7 +18539,7 @@ section.dark .box-static .box-title {
 .box-dark h4,
 .box-dark h5,
 .box-dark h6 {
-    color: #fff;
+    color: #0a65a0;
 }
 
 .box-inner {
@@ -18639,7 +18639,7 @@ section.dark .box-inner h6 > a:hover {
 .box-gradient h4,
 .box-gradient h5,
 .box-gradient h6 {
-    color: #fff;
+    color: #0a65a0;
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 50px;
@@ -19048,11 +19048,11 @@ section.dark table {
 }
 section.dark .card .card-heading,
 section.dark .card .card-heading h2 {
-    color: #111 !important;
+    color: #0a65a0 !important;
 }
 section.dark .card .card-heading.card-heading-transparent,
 section.dark .card .card-heading.card-heading-transparent h2 {
-    color: #eaeaea !important;
+    color: #0a65a0 !important;
 }
 .card table thead {
     background-color: rgba(0, 0, 0, 0.01);
@@ -19569,7 +19569,7 @@ section.callout.alert {
 .callout.alert h4,
 .callout.alert h5,
 .callout.alert h6 {
-    color: #111;
+    color: #0a65a0;
     margin-bottom: 3px;
     font-weight: 500;
 }
@@ -19658,7 +19658,7 @@ section.callout.alert {
 .callout h4,
 .callout h5,
 .callout h6 {
-    color: #fff;
+    color: #0a65a0;
     margin: 0 !important;
     font-weight: 300;
 }
@@ -19697,7 +19697,7 @@ section.callout.alert {
 .callout.callout-transparent h5,
 .callout.callout-transparent h6,
 .callout.callout-transparent p {
-    color: #111;
+    color: #0a65a0;
     margin: 0 !important;
     font-weight: 300;
 }
@@ -19716,7 +19716,7 @@ section.dark .callout h4,
 section.dark .callout h5,
 section.dark .callout h6,
 section.dark .callout p {
-    color: #111;
+    color: #0a65a0;
 }
 section.dark .callout.alert-bolder,
 section.dark .callout.alert-bolder h1,
@@ -19726,7 +19726,7 @@ section.dark .callout.alert-bolder h4,
 section.dark .callout.alert-bolder h5,
 section.dark .callout.alert-bolder h6,
 section.dark .callout.alert-bolder p {
-    color: #111;
+    color: #0a65a0;
 }
 section.dark .alert-border,
 section.dark .alert-border h1,
@@ -19737,10 +19737,10 @@ section.dark .alert-border h5,
 section.dark .alert-border h6,
 section.dark .alert-border p,
 section.dark .callout .btn {
-    color: #fff;
+    color: #0a65a0;
 }
 section.dark .alert-transparent {
-    border-left-color: #444;
+    border-left-color: #0a65a0;
 }
 section.dark .alert-transparent,
 section.dark .alert-transparent h1,
@@ -19751,7 +19751,7 @@ section.dark .alert-transparent h5,
 section.dark .alert-transparent h6,
 section.dark .alert-transparent p,
 section.dark .callout .btn {
-    color: #fff;
+    color: #0a65a0;
 }
 section.dark .callout.alert-border {
     border-color: #666;
@@ -19765,7 +19765,7 @@ section.dark .callout-box.callout-default h4,
 section.dark .callout-box.callout-default h5,
 section.dark .callout-box.callout-default h6,
 section.dark .callout-box.callout-default p {
-    color: #111;
+    color: #0a65a0;
 }
 section.dark .callout-box .btn {
     color: #fff;
@@ -19779,7 +19779,7 @@ section.dark .callout-theme-color h4,
 section.dark .callout-theme-color h5,
 section.dark .callout-theme-color h6,
 section.dark .callout-theme-color p {
-    color: #fff;
+    color: #0a65a0;
 }
 
 section.dark .callout-dark {
@@ -19793,7 +19793,7 @@ section.dark .callout-dark h4,
 section.dark .callout-dark h5,
 section.dark .callout-dark h6,
 section.dark .callout-dark p {
-    color: #fff;
+    color: #0a65a0;
 }
 section.dark .callout-transparent,
 section.dark .callout-transparent h1,
@@ -19803,7 +19803,7 @@ section.dark .callout-transparent h4,
 section.dark .callout-transparent h5,
 section.dark .callout-transparent h6,
 section.dark .callout-transparent p {
-    color: #fff;
+    color: #0a65a0;
 }
 
 @media only screen and (max-width: 960px) {
@@ -19878,7 +19878,7 @@ section.dark .callout-transparent p {
 .info-bar h5,
 .info-bar h6,
 .info-bar p {
-    color: #333;
+    color: #0a65a0;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -19902,7 +19902,7 @@ section.dark .callout-transparent p {
 .info-bar.info-bar-dark h5,
 .info-bar.info-bar-dark h6,
 .info-bar.info-bar-dark p {
-    color: #fff;
+    color: #0a65a0;
 }
 .info-bar.info-bar-dark div.row > div {
     border-right-color: rgba(255, 255, 255, 0.1);
@@ -19918,7 +19918,7 @@ section.dark .callout-transparent p {
 .info-bar.info-bar-color h5,
 .info-bar.info-bar-color h6,
 .info-bar.info-bar-color p {
-    color: #fff;
+    color: #0a65a0;
 }
 .info-bar.info-bar-color div.row > div {
     border-right-color: rgba(0, 0, 0, 0.1);
@@ -20296,7 +20296,7 @@ div.price-table .btn-primary {
 
 section.dark div.price-table {
     border-left-color: #212121;
-    background-color: #444;
+    background-color: #0a65a0;
 }
 section.dark div.price-table.popular {
     background-color: #666;
@@ -20508,7 +20508,7 @@ i.ico-rounded,
 i.ico-color,
 i.ico-light,
 i.ico-dark {
-    color: #444;
+    color: #0a65a0;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -20586,7 +20586,7 @@ section.dark i.ico-dark {
 }
 section.dark i.ico-light {
     color: #ddd;
-    background-color: #444;
+    background-color: #0a65a0;
 }
 section.dark i.ico-transparent {
     color: #ddd;
@@ -22963,7 +22963,7 @@ section.dark .select2-container--default .select2-selection--single {
 .select2-container--classic
     .select2-selection--single
     .select2-selection__rendered {
-    color: #444;
+    color: #0a65a0;
     line-height: 28px;
 }
 .select2-container--classic
@@ -23386,13 +23386,13 @@ div.tab-content.tab-stacked {
     background-color: #fafafa;
 }
 section.dark div.tab-content.tab-stacked {
-    background-color: #444;
+    background-color: #0a65a0;
 }
 section.dark .nav-tabs.nav-stacked > li > a {
     background-color: #666;
 }
 section.dark .nav-tabs.nav-stacked > li > a.active {
-    background-color: #444;
+    background-color: #0a65a0;
     margin: 0;
 }
 
@@ -26975,7 +26975,7 @@ section.dark .sky-form .textarea textarea {
     background-color: transparent;
 }
 section.dark .sky-form footer {
-    border-top-color: #444;
+    border-top-color:  #0a65a0;
 }
 
 section.dark .sky-form .checkbox input:hover + i,
@@ -27611,7 +27611,7 @@ section.dark
     .dropdown-menu
     i.fa,
 section.dark .note-toolbar .note-para .dropdown-menu i.fa {
-    color: #000;
+    color: #0a65a0;
 }
 
 /**	52. Markdown
@@ -27954,7 +27954,7 @@ h4:before,
 h5:before,
 h6:before {
     content: attr(data-bgtext);
-    color: rgba(148, 149, 150, 0.07);
+    color: #0a65a0;
     font-size: 100px;
     font-weight: bold;
     letter-spacing: 0;
@@ -28065,7 +28065,7 @@ h6:before {
 .cart-visual-default h5,
 .cart-visual-default h6,
 .cart-visual-default p {
-    color: #888;
+    color: #0a65a0;
 }
 .cart-visual-default a {
     color: #666;
@@ -28159,4 +28159,23 @@ h6:before {
         padding: 30px 10px 50px 10px !important;
         background-color: rgba(0, 0, 0, 0.01);
     }
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 18;
+  font-style: normal;
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #footer{
+    background-color: #0a65a0 !important ;
+
+
 }
