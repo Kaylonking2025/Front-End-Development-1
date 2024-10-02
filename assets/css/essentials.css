@@ -17696,7 +17696,7 @@ div.heading-title h6 {
     display: inline-block;
     padding-left: 0;
     padding-right: 15px;
-    background-color: #0a65a0;
+    background-color: #fff;
 }
 div.heading-title.text-center h1,
 div.heading-title.text-center h2,
@@ -17785,7 +17785,7 @@ section.alternate div.heading-title h3,
 section.alternate div.heading-title h4,
 section.alternate div.heading-title h5,
 section.alternate div.heading-title h6 {
-    background-color: #0a65a0;
+    background-color: #fff;
 }
 section.dark div.heading-title h1,
 section.dark div.heading-title h2,
@@ -17793,7 +17793,7 @@ section.dark div.heading-title h3,
 section.dark div.heading-title h4,
 section.dark div.heading-title h5,
 section.dark div.heading-title h6 {
-    background-color: #0a65a0;
+    background-color: #fff;
 }
 section.dark.alternate div.heading-title h1,
 section.dark.alternate div.heading-title h2,
@@ -17801,7 +17801,7 @@ section.dark.alternate div.heading-title h3,
 section.dark.alternate div.heading-title h4,
 section.dark.alternate div.heading-title h5,
 section.dark.alternate div.heading-title h6 {
-    background-color: #0a65a0;
+    background-color: #fff;
 }
 
 /* Arrow Heading */
@@ -28175,7 +28175,13 @@ h6:before {
   }
 
   #footer{
-    background-color: #0a65a0 !important ;
+    background-color: #0a65a0 !important;
 
 
+}
+#team {
+    background-color: #0a65a0 !important;
+}
+#year{
+    color: red !important;
 }
