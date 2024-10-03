@@ -114,6 +114,34 @@ function resetForm() {
 }
 
 function displayBuildingFields(buildingType) {
+    console.log(buildingType)
+    const colors = document.getElementById("colors") 
+    const colors1 = document.getElementById("colors1")
+    const colors2 = document.getElementById("colors2")
+    const colors3 = document.getElementById("colors3")
+    if (buildingType == "residential") {
+        let residential = '#ADD8E6'
+        colors.style.backgroundColor = residential
+        colors1.style.backgroundColor = residential
+        colors2.style.backgroundColor = residential
+        colors3.style.backgroundColor = residential
+    
+    }
+    else if (buildingType == "industrial") {
+        let industrial = 'grey'
+        colors.style.backgroundColor = industrial
+        colors1.style.backgroundColor = industrial
+        colors2.style.backgroundColor = industrial
+        colors3.style.backgroundColor = industrial
+    }
+    else if (buildingType == "commercial"){
+        let commercial = '#FA8072'
+        colors.style.backgroundColor = commercial
+        colors1.style.backgroundColor = commercial
+        colors2.style.backgroundColor = commercial
+        colors3.style.backgroundColor = commercial
+    }
+
     estimateNumElv_div.style.display = "block";
     estimateNumElv_div.querySelector(".step-description").style.display =
         "block";
