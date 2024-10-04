@@ -28188,3 +28188,26 @@ h6:before {
 #footer{
     background-color: #0a65a0 !important;
 }
+#users{
+    color: red !important; 
+    width: 80%;              /* Make the table span the full width of the container */
+ border-collapse: collapse; /* Remove space between cells */
+  margin: 20px 0;            /* Add some margin around the table */
+}
+#users  th {
+    background-color:red !important; /* Green background */
+    color: #0a65a0;              /* White text color */
+    padding: 10px;             /* Padding inside the header cells */
+    text-align: center;          /* Align text to the left */
+}
+#users td {
+    padding: 10px;             /* Padding inside the data cells */
+    border: 1px solid #ddd;    /* Add border around each cell */
+    text-align: center;          /* Align text to the left */
+}
+#users tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+#users tr:hover {
+    background-color: #ddd;    /* Light gray background when hovering over rows */
+  }

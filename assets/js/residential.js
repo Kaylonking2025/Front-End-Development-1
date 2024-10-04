@@ -14,26 +14,22 @@ const agentOne = async () => {
 // creates the table of agent information
 const agentTable = async () => { 
 //Create a variable to store HTML table headers
-    let li = `<tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Rating</th> <th>Fee</th></tr>`;
+    let li = `<tr><th>First & Last Name</th> <th>Rating</th> <th>Fee</th></tr>`;
     //Waits for the data to be fetched from the agentOne.
     const agentData = await agentOne()
-    // making a variable to connect with the html agent list
-    const agentList = document.getElementById('agent-list');
-    //DOM Display result
-    document.getElementById("users").innerHTML = li;
 
 
 
   //user is a parameter (placeholder)
-json.forEach((user) => {
+agentData.forEach((user) => {
   li +=  `<tr>
-    <td>${user.first_name}</td>
-    <td>${user.last_name} </td>
+    <td>${user.first_name} ${user.last_name}</td>
     <td>${user.rating}</td>
     <td>${user.fee}</td>
   </tr>`;
-
-  
+ 
+ //DOM Display result
+  document.getElementById("users").innerHTML = li;
 
 });
 }
