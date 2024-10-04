@@ -28172,9 +28172,9 @@ h6:before {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  #footer{
+#footer{
     background-color: #0a65a0 !important;
 
 
@@ -28189,6 +28189,10 @@ h6:before {
     background-color: #0a65a0 !important;
 }
 #users{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: red !important; 
     width: 80%;              /* Make the table span the full width of the container */
  border-collapse: collapse; /* Remove space between cells */
