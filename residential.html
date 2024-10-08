@@ -449,16 +449,18 @@
 
 
 			<!-- Agents Rating Information -->
-			<section id="agent-table">
-			 <div>Top Agents</div>
-				<table id="users">
+			<section id="agent-table" >
+				 <!-- Input field for filtering -->
+					<table >
 					<thead>
 					  <tr>
-						<th>First & Last Name</th>
-						<th>Rating</th>
-						<th>Fee</th>
-					  </tr>
+							<th>First Name<i id="upfirst"class="arrow up"></i><i id="downfirst" class="arrow down"></i></th>
+							<th>Last Name<i id ="uplast"class="arrow up"></i><i id="downlast"class="arrow down"></i></th>
+							<th>Rating</th>
+							<th>Fee</th>
+						</tr>
 					</thead>
+					<tbody id="users"></tbody>
 				  </table>
 
 			<!-- MODAL -->

@@ -12,25 +12,82 @@ const agentOne = async () => {
   }
 
 // creates the table of agent information
-const agentTable = async () => { 
+const agentTable = async (agentData1) => { 
 //Create a variable to store HTML table headers
-    let li = `<tr><th>First & Last Name</th> <th>Rating</th> <th>Fee</th></tr>`;
+    let li 
     //Waits for the data to be fetched from the agentOne.
-    const agentData = await agentOne()
-
+   
+    const checkData = async () => {
+      if (agentData1){
+      return agentData1
+     }
+     else { return await agentOne()}
+    }
+ const agentData = await checkData ()
 
 
   //user is a parameter (placeholder)
 agentData.forEach((user) => {
   li +=  `<tr>
-    <td>${user.first_name} ${user.last_name}</td>
+    <td>${user.first_name}</td>
+    <td>${user.last_name}</td>
     <td>${user.rating}</td>
     <td>${user.fee}</td>
   </tr>`;
  
- //DOM Display result
-  document.getElementById("users").innerHTML = li;
 
-});
+
+  
+}); 
+//DOM Display result
+  document.getElementById("users").innerHTML = li;
 }
 agentTable()
+
+const sortByFirstName = async (order) => {
+  const agentData = await agentOne()
+  agentData.sort((a, b) => {
+    if (order === 'asc') {
+      return a.first_name.localeCompare(b.first_name);
+    } else {
+      return b.first_name.localeCompare(a.first_name);
+    }
+  });
+  agentTable(agentData); // Re-render the table after sorting
+};
+
+// Sort function for last name (ascending and descending)
+const sortByLastName = async (order) => {
+  const agentData = await agentOne()
+  agentData.sort((a, b) => {
+    if (order === 'asc') {
+      return a.last_name.localeCompare(b.last_name);
+    } else {
+      return b.last_name.localeCompare(a.last_name);
+    }
+  });
+};
+
+
+const upfirst = document.getElementById('upfirst')
+const downfirst = document.getElementById('downfirst')
+const uplast = document.getElementById('uplast')
+const downlast = document.getElementById('downlast')
+
+// Add event listeners to the arrows for sorting
+upfirst.addEventListener('click', function() {
+  // Sorting logic or a function that gets triggered on click
+  sortByFirstName('asc');
+});
+downfirst.addEventListener('click', function() {
+  sortByFirstName('desc');
+});
+uplast.addEventListener('click', function() {
+  
+  sortByLastName('desc');
+});  
+downlast.addEventListener('click', function() {
+  
+  sortByLastName('asc');
+});
+
