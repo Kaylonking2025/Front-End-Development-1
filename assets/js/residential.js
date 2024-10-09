@@ -14,7 +14,7 @@ const agentOne = async () => {
 // creates the table of agent information
 const agentTable = async (agentData1) => { 
 //Create a variable to store HTML table headers
-    let li 
+    let li = ''
     //Waits for the data to be fetched from the agentOne.
    
     const checkData = async () => {
@@ -33,6 +33,7 @@ agentData.forEach((user) => {
     <td>${user.last_name}</td>
     <td>${user.rating}</td>
     <td>${user.fee}</td>
+    <td>${user.region}</td>
   </tr>`;
  
 
@@ -66,6 +67,7 @@ const sortByLastName = async (order) => {
       return b.last_name.localeCompare(a.last_name);
     }
   });
+  agentTable(agentData); // Re-render the table after sorting
 };
 
 
@@ -84,10 +86,25 @@ downfirst.addEventListener('click', function() {
 });
 uplast.addEventListener('click', function() {
   
-  sortByLastName('desc');
+  sortByLastName('asc');
 });  
 downlast.addEventListener('click', function() {
   
-  sortByLastName('asc');
+  sortByLastName('desc');
 });
+const formatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
 
+});
+const dropdown = document.getElementById('region-select')
+
+dropdown.addEventListener('change', function() {
+  const agentData = await agentOne() 
+  if (dropdown.value !== "all-regions") {
+    return agentData;
+  } else if {
+    return 
+
+   }
+});

@@ -450,6 +450,17 @@
 
 			<!-- Agents Rating Information -->
 			<section id="agent-table" >
+				<div id="region-select-container">
+					<th style="font-family: sans-serif"><label for="region-select"><strong style="font-size: 15px;">Pick Your Region</strong></label>
+						<select name="region-select" id="region-select">
+							<option value="all-regions">All</option>
+							<option value="north">North</option>
+							<option value="south">South</option>
+							<option value="east">East</option>
+							<option value="west">West</option>
+						</select>
+					</th>
+				</div>
 				 <!-- Input field for filtering -->
 					<table >
 					<thead>
@@ -458,10 +469,12 @@
 							<th>Last Name<i id ="uplast"class="arrow up"></i><i id="downlast"class="arrow down"></i></th>
 							<th>Rating</th>
 							<th>Fee</th>
+							<th>Region</th>
 						</tr>
 					</thead>
 					<tbody id="users"></tbody>
 				  </table>
+				  
 
 			<!-- MODAL -->
 			<div class="modal fade" id="subscribe-message" role="dialog">
@@ -566,6 +579,8 @@
 				this.reset();
 			});
 		</script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 	</body>
 </html>

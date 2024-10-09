@@ -90,7 +90,7 @@ input::-moz-focus-inner {
 }
 
 ::selection {
-    color: #fff;
+    color: #0a65a0;
     text-shadow: none;
     background: #333;
 }
@@ -28188,15 +28188,13 @@ h6:before {
 #footer{
     background-color: #0a65a0 !important;
 }
-#users{
-
-    display: flex;
+#users {
     align-items: center;
     justify-content: center;
     color: red !important; 
     width: 80%;              /* Make the table span the full width of the container */
- border-collapse: collapse; /* Remove space between cells */
-  margin: 20px 0;            /* Add some margin around the table */
+    border-collapse: collapse; /* Remove space between cells */
+    margin: 20px 0;            /* Add some margin around the table */
 }
 #users  th {
     background-color:red !important; /* Green background */
@@ -28208,12 +28206,14 @@ h6:before {
     padding: 10px;             /* Padding inside the data cells */
     border: 1px solid #ddd;    /* Add border around each cell */
     text-align: center;          /* Align text to the left */
+    border: 1px solid #0a65a0;
+    padding: 0.5rem
 }
 #users tr:nth-child(even) {
-    background-color: #f2f2f2; /* Light gray background for even rows */
+    background-color: #9f191f; /* Light gray background for even rows */
 }
 #users tr:hover {
-    background-color: #ddd;    /* Light gray background when hovering over rows */
+    background-color: #0a65a0;    /* Light gray background when hovering over rows */
 }
 .arrow {
     border: solid black;
@@ -28242,4 +28242,9 @@ h6:before {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+#users  td, th {
+    border: 1px solid #0a65a0;
+    padding: 0.5rem;
+  }
+
   
