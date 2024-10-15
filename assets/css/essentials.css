@@ -2731,7 +2731,7 @@ section.dark .inline-search form button:hover {
     background-color: transparent;
 }
 .parallax .overlay {
-    background-color: rgba(34, 34, 34, 0.3);
+    background-color: #0a65a0(34, 34, 34, 0.3);
     position: absolute;
     left: 0;
     right: 0;
@@ -28182,8 +28182,10 @@ h6:before {
 #team {
     background-color: #0a65a0 !important;
 }
-#year{
+#year {
     color: red !important;
+    font-weight: bold;
+    font-style: 50px;
 }
 #footer{
     background-color: #0a65a0 !important;
@@ -28246,5 +28248,8 @@ h6:before {
     border: 1px solid #0a65a0;
     padding: 0.5rem;
   }
+#agent-table {
+    position: center
+}
 
   

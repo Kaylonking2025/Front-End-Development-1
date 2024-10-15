@@ -31,8 +31,8 @@ agentData.forEach((user) => {
   li +=  `<tr>
     <td>${user.first_name}</td>
     <td>${user.last_name}</td>
-    <td>${user.rating}</td>
-    <td>${user.fee}</td>
+    <td>${user.rating}%</td>
+    <td>$${user.fee}</td>
     <td>${user.region}</td>
   </tr>`;
  
@@ -76,18 +76,21 @@ const downfirst = document.getElementById('downfirst')
 const uplast = document.getElementById('uplast')
 const downlast = document.getElementById('downlast')
 
-// Add event listeners to the arrows for sorting
+// attaching an event listener to the up arrows in the first name colomn
 upfirst.addEventListener('click', function() {
   // Sorting logic or a function that gets triggered on click
   sortByFirstName('asc');
 });
+// attaching an event listener to the down arrows in the first name colomn
 downfirst.addEventListener('click', function() {
   sortByFirstName('desc');
 });
+// attaching an event listener to the up arrows in the last name colomn
 uplast.addEventListener('click', function() {
   
   sortByLastName('asc');
-});  
+}); 
+ // attaching an event listener to the down arrows in the last name colomn
 downlast.addEventListener('click', function() {
   
   sortByLastName('desc');
@@ -99,12 +102,23 @@ const formatter = new Intl.NumberFormat('en-US', {
 });
 const dropdown = document.getElementById('region-select')
 
-dropdown.addEventListener('change', function() {
+dropdown.addEventListener('change', async function() {
   const agentData = await agentOne() 
-  if (dropdown.value !== "all-regions") {
+  let filteredData = []; // Variable to hold the filtered data
+  console.log('filterData')
+  if (dropdown.value == "all-regions"){
     return agentData;
-  } else if {
-    return 
-
-   }
+  } else if (dropdown.value == "north"){
+    const north = agentData.filter(agent => agent.region == 'north')
+    agentTable(north); // Re-render the table after sorting
+  } else if (dropdown.value == "south"){
+    const south = agentData.filter(agent => agent.region == 'south')
+    agentTable(south); // Re-render the table after sorting
+  } else if (dropdown.value == "east"){
+    const east = agentData.filter(agent => agent.region == 'east')
+    agentTable(east); // Re-render the table after sorting
+  } else if (dropdown.value == "west"){
+    const west = agentData.filter(agent => agent.region == 'west')
+    agentTable(west); // Re-render the table after sorting
+  } 
 });
