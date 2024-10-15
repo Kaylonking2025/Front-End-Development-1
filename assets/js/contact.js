@@ -33,7 +33,7 @@ const message = document.getElementById('message')
 const attachment = document.getElementById('attachment')
 
 
-
+// this event listener adds the inforamtion in the input fields
 submit_btn.addEventListener('click', function() {
 	const object = {
 		fullname : name.value,
@@ -48,7 +48,7 @@ submit_btn.addEventListener('click', function() {
 
 	}
 	
-
+// this function sends that information over to the servers
 	
     fetch('http://99.79.77.144:3000/api/contact', {
 		method: 'POST',
