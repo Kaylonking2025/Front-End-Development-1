@@ -28161,6 +28161,7 @@ h6:before {
     }
 }
 
+/* added the font syle */
 .roboto-slab {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
@@ -28168,28 +28169,30 @@ h6:before {
   font-style: normal;
 }
 
+/* added the font syle */
 .pt-serif-regular {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+/* changed the color of the footer */
 #footer{
     background-color: #0a65a0 !important;
-
-
 }
+
 #team {
     background-color: #0a65a0 !important;
 }
+
+/* changed the year time on html */
 #year {
     color: red !important;
     font-weight: bold;
     font-style: 50px;
 }
-#footer{
-    background-color: #0a65a0 !important;
-}
+
+/* this is for making changes to the user part of the chart*/
 #users {
     align-items: center;
     justify-content: center;
@@ -28217,6 +28220,16 @@ h6:before {
 #users tr:hover {
     background-color: #0a65a0;    /* Light gray background when hovering over rows */
 }
+#users  td, th {
+    border: 1px solid #0a65a0;
+    padding: 0.5rem;
+  }
+#agent-table {
+    position: center
+}
+
+
+/* properties create a pointing arrow shapes */
 .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -28244,12 +28257,6 @@ h6:before {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
-#users  td, th {
-    border: 1px solid #0a65a0;
-    padding: 0.5rem;
-  }
-#agent-table {
-    position: center
-}
+
 
   

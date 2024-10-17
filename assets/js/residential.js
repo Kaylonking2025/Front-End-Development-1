@@ -45,6 +45,7 @@ agentData.forEach((user) => {
 }
 agentTable()
 
+// Sort function for first name (ascending and descending)
 const sortByFirstName = async (order) => {
   const agentData = await agentOne()
   agentData.sort((a, b) => {
@@ -70,10 +71,13 @@ const sortByLastName = async (order) => {
   agentTable(agentData); // Re-render the table after sorting
 };
 
-
+// grabs the element by ID from html
 const upfirst = document.getElementById('upfirst')
+// grabs the element by ID from html
 const downfirst = document.getElementById('downfirst')
+// grabs the element by ID from html
 const uplast = document.getElementById('uplast')
+// grabs the element by ID from html
 const downlast = document.getElementById('downlast')
 
 // attaching an event listener to the up arrows in the first name colomn
