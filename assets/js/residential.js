@@ -111,7 +111,8 @@ dropdown.addEventListener('change', async function() {
   let filteredData = []; // Variable to hold the filtered data
   console.log('filterData')
   if (dropdown.value == "all-regions"){
-    return agentData;
+    const allRegions = agentData
+    agentTable(allRegions);
   } else if (dropdown.value == "north"){
     const north = agentData.filter(agent => agent.region == 'north')
     agentTable(north); // Re-render the table after sorting
